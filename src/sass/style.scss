@@ -1,0 +1,25 @@
+@import './base/variables.scss';
+@import './mixins/mixins.scss';
+@import './componentes/card.scss';
+@import './componentes/inputs.scss';
+@import './componentes/nav.scss';
+
+
+
+    
+ .body{
+    background-color: $violeta;
+    min-Height:100vh;
+    font-family: $texto-principal;
+}
+
+ 
+ .conteiner {
+    background-color: $blanco;
+    width:100vh ;
+    margin:0 auto ;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow:0 1px 10px rgba($color: black, $alpha: 0.4);
+ }
+

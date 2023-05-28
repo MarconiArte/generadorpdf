@@ -1,0 +1,13 @@
+@mixin boton {  
+        background-color: $violeta;
+        border: none;
+        color: $blanco;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        &:hover{
+           cursor: pointer;
+           background-color: #393160;
+           transition: 0.5s;
+        }
+}
